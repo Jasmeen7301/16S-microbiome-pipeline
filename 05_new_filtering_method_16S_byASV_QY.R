@@ -1,8 +1,8 @@
 # specify path to input file
-in_fp = "D:/16S Data/For Jasmeen/Novogene_June24/Result_X201SC23122974-Z01-F002_16SV34/June_24_GPA/filtered_table_hd5_final_w_tax_200_0.01.txt"
+in_fp = "path/to/filtered_table_hd5_final_w_tax_200_0.01.txt"
 
 # specify path to output file
-out_fp <- "D:/16S Data/For Jasmeen/Novogene_June24/Result_X201SC23122974-Z01-F002_16SV34/June_24_GPA/filtered_table_hd5_final_w_tax_200_0.01_0.02.txt"
+out_fp <- "path/to/filtered_table_hd5_final_w_tax_200_0.01_0.02.txt"
 
 # specify the by-ASV filtration level (e.g. 3% = 0.03)
 asvFL <- 0.02
