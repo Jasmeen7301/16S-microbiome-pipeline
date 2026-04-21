@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define directories
-TARGET_DIR="/mnt/galaxy/home/qazih/16S/Mar_2026/raw_reads"
-OUTPUT_DIR="/mnt/galaxy/home/qazih/16S/Mar_2026/cutadapt_trimmed_index" # Directory to save trimmed files
+TARGET_DIR="/path/to/raw_reads"
+OUTPUT_DIR="/path/to/cutadapt_trimmed_index" # Directory to save trimmed files
 LOG_FILE="cutadapt_processing.log"
 
 # Ensure log file exist
