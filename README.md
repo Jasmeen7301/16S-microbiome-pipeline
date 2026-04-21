@@ -40,7 +40,7 @@ Raw reads (paired-end)
 [03] 03_qiime2_pipeline.sh
         │   ├── qiime tools import
         │   ├── qiime cutadapt trim-paired  (V3-V4 primers)
-        │   ├── qiime dada2 denoise-paired  (trunc-len-f, trunc-len-r based on denoising.qzv from dada2 step)
+        │   ├── qiime dada2 denoise-paired  (trunc-len-f, trunc-len-r based on visualisation.qzv from pervious step)
         │   └── qiime feature-classifier classify-sklearn  (SILVA 138)
         ▼
 [04] 04_filter_and_export.sh
