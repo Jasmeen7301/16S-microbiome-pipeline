@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define source and target directories
-SOURCE_DIR="/mnt/galaxy/home/qazih/16S/Mar_2026/result_X201SC26024678-Z01-F001/01.RawData"
-TARGET_DIR="/mnt/galaxy/home/qazih/16S/Mar_2026/raw_reads"
+SOURCE_DIR="/path/to/01.RawData"
+TARGET_DIR="/path/to/raw_reads"
 
 # Find all files ending with .raw_1.fastq.gz in subdirectories
 find "$SOURCE_DIR" -type f -name "*.raw_1.fastq.gz" | while read -r file; do
