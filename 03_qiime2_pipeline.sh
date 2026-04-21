@@ -45,7 +45,7 @@ mkdir -p dada2
 
 qiime dada2 denoise-paired \
   --i-demultiplexed-seqs cutadapt_trimmed_primers/trimmed.qza \
-  --p-trunc-len-f 228 \
+  --p-trunc-len-f 228 \ # based on pervious step decide the f and r(visualisation.qzv file)
   --p-trunc-len-r 222 \
   --output-dir dada2 \
   --verbose
